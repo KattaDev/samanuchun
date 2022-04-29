@@ -94191,8 +94191,8 @@ list_word1=["a",
 conn = sqlite3.connect('worddata.db')
 
 cursor = conn.cursor()
-# cursor.execute('''CREATE TABLE izohlar
-#                (word text, izoh text)''')
+cursor.execute('''CREATE TABLE izohlar
+               (word text, izoh text)''')
 
 # Insert a row of data
 for word in list_word:
