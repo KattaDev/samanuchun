@@ -4,7 +4,7 @@ import sqlite3
 import json
 from aiogram import Bot, Dispatcher, executor, types
 
-API_TOKEN = '1651301432:AAGcjEGXIcSN0Lhq-DDshgsMdjonAxbbWvM'
+API_TOKEN = ''
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
