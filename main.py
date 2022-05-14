@@ -54,7 +54,7 @@ def getizoh(word):
 # start command handler
 @dp.message_handler(commands=['start'])
 async def cmd_start(message: types.Message):
-    await message.reply("<b>Salom {}.So'zni yozing!</b>".format(message.from_user.first_name))
+    await message.reply("<b>Salom {}.So'zni yozing!</b>".format(message.from_user.first_name),parse_mode=types.ParseMode.HTML)
 
 @dp.message_handler()
 async def echo(message: types.Message):
